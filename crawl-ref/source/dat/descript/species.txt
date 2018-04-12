@@ -28,6 +28,11 @@ Demonspawn
 Demonspawn are half human, half demon. They acquire strong demonic mutations as
 they grow.
 %%%%
+Dugong Overlord
+
+Dugong Overlords are slippery, large beasts. They defy gravity and use their 
+body as a weapon. Greatly attuned to ice magic.
+%%%%
 Draconian
 
 Draconians are versatile hybrids. They mature when reaching level 7 and develop

@@ -1741,6 +1741,20 @@ Gnolls
   also have powerful noses adapted to the Dungeon's scents, allowing them to
   easily locate where treasures lay hidden.
 
+Dugong Overlord
+  Dugong Overlords are large, slippery mammals that rose from the southern seas.
+  The Dugongs are in search of the Orb, so that they may harness its abilities and 
+  rise to power once more.
+
+  Though they originally were confined to the depths of the sea, Dugong 
+  Overlords do not conform to social constructs and so they breath that sweet sweet 
+  oxygen. Their exterior resembles that of flubber which allows them to often 
+  dodge and reflect physical attacks. Dugong Overlords also defy gravity by constantly 
+  floating through the air.
+
+  They are extremely profficient in fighting without weapons and casting ice magic.
+  Due to their abnormal size they cannot wear most body armor.
+
 The Undead
 ========================================
 
@@ -1841,6 +1855,8 @@ Pale Draconians
   are better at air and fire magic, and have no deficiencies in other schools.
   They breathe steam and, like their Purple cousins, have a slight advantage at
   Evocations.
+
+
 
 ****************************************
 2. List of character backgrounds
