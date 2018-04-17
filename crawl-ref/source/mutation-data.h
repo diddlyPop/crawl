@@ -39,7 +39,7 @@ static const mutation_def mut_data[] =
 },
 
 {MUT_DEFY_GRAV, 0 , 1, mutflag::good, true,
- "defies gravity",
+ "hovering",
  
  {"You float upward.",
  "",
@@ -52,7 +52,7 @@ static const mutation_def mut_data[] =
  },
 
  {MUT_BLUBBER, 0 , 1, mutflag::good, true,
- "defies gravity",
+ "blubberous",
  
  {"You feel slippery.",
  "",

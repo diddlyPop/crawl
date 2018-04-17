@@ -66,7 +66,7 @@ static const map<species_type, species_def> species_data =
     { STAT_STR, STAT_INT, STAT_DEX }, 4,
     { { MUT_BLUBBER, 1, 1 },  { MUT_DEFY_GRAV, 1, 1 }, },
     { "Your blubber layer deflects and shields from attack."},
-    { "You float gracefully.", },
+    { "wet", },
     {  JOB_FIGHTER, JOB_BERSERKER, JOB_SKALD, JOB_SUMMONER, JOB_ICE_ELEMENTALIST },
     { SK_MACES_FLAILS, SK_AXES, SK_POLEARMS, SK_LONG_BLADES, SK_STAVES,
       SK_BOWS, SK_CROSSBOWS, SK_SLINGS },
