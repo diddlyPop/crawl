@@ -514,6 +514,7 @@ public:
     bool is_skeletal() const override;
 
     bool tengu_flight() const;
+    bool dugong_defy_grav() const;
     int heads() const override;
 
     bool spellcasting_unholy() const;
@@ -1122,6 +1123,7 @@ void float_player();
 bool land_player(bool quiet = false);
 void player_open_door(coord_def doorpos);
 void player_close_door(coord_def doorpos);
+void float_once();
 
 void dec_disease_player(int delay);
 void player_end_berserk();

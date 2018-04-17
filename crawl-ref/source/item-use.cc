@@ -705,6 +705,20 @@ bool can_wear_armour(const item_def &item, bool verbose, bool ignore_temporary)
             mpr("You can't wear that!");
         return false;
     }
+    
+    if (you.species == SP_DUGONG_OVERLORD && slot != EQ_HELMET)
+    {
+        if (verbose)
+            mpr("You can't wear that!");
+        return false;
+    }
+    
+    if (you.species == SP_DUGONG_OVERLORD && slot == EQ_HELMET)
+    {
+        if (verbose)
+            mpr("You somehow fit the helmet on your head.");
+        return true;
+    }
 
     if (species_is_draconian(you.species) && slot == EQ_BODY_ARMOUR)
     {

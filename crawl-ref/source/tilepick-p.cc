@@ -628,6 +628,8 @@ tileidx_t tilep_species_to_base_tile(int sp, int level)
         return TILEP_BASE_VINE_STALKER;
     case SP_BARACHI:
         return TILEP_BASE_BARACHI;
+    case SP_DUGONG_OVERLORD:
+        return TILEP_BASE_DUGONG_OVERLORD;
     default:
         return TILEP_BASE_HUMAN;
     }
@@ -726,6 +728,9 @@ void tilep_race_default(int sp, int level, dolls_data *doll)
             beard = TILEP_BEARD_MEDIUM_GREEN;
             break;
         case SP_FORMICID:
+            hair = 0;
+            break;
+        case SP_DUGONG_OVERLORD:
             hair = 0;
             break;
         default:
@@ -995,6 +1000,10 @@ void tilep_calc_flags(const dolls_data &doll, int flag[])
              && doll.parts[TILEP_PART_BASE] <= TILEP_BASE_DRACONIAN_LAST)
     {
         flag[TILEP_PART_HAIR] = TILEP_FLAG_HIDE;
+    }
+    else if (is_player_tile(doll.parts[TILEP_PART_BASE], TILEP_BASE_DUGONG_OVERLORD))
+    {
+         flag[TILEP_PART_LEG]   = TILEP_FLAG_HIDE;
     }
     else if (is_player_tile(doll.parts[TILEP_PART_BASE], TILEP_BASE_FELID))
     {

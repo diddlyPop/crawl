@@ -38,6 +38,7 @@ enum mutation_type
     MUT_AGILE,
     MUT_BERSERK,
     MUT_BLINK,
+    MUT_BLUBBER,
     MUT_BLURRY_VISION,
 #if TAG_MAJOR_VERSION == 34
     MUT_BREATHE_FLAMES,
@@ -59,6 +60,7 @@ enum mutation_type
     MUT_CONSERVE_SCROLLS,
 #endif
     MUT_DEFORMED,
+    MUT_DEFY_GRAV,
     MUT_DEMONIC_GUARDIAN,
     MUT_DETERIORATION,
     MUT_DOPEY,

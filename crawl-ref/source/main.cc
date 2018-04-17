@@ -444,6 +444,12 @@ NORETURN static void _launch_game()
 
     if (!crawl_state.game_is_tutorial())
         mpr("Press <w>?</w> for a list of commands and other information.");
+    
+    if (you.species == SP_DUGONG_OVERLORD && you.num_turns == 0 && 
+            !you.airborne())
+    {
+        float_once();
+    }
 
     _prep_input();
 
