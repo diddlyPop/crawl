@@ -1936,22 +1936,6 @@ static const mutation_def mut_data[] =
   {"Your sense of smell grows stronger.", "", ""},
   {"Your sense of smell gets weaker.", "", ""},
 },
-
-{ MUT_DEFY_GRAV, 0, 1, mutflag::good, true,
-  "floatation",
-
-  {"You can float above the ground.", "", ""},
-  {"", "", ""},
-  {"", "", ""},
-},
-
-{ MUT_BLUBBER, 0, 1, mutflag::good, true,
-  "slippery body",
-
-  {"Your body is hard to land a hit on.", "", ""},
-  {"", "", ""},
-  {"", "", ""},
-},
 };
 
 static const mutation_category_def category_mut_data[] =

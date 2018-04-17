@@ -55,23 +55,6 @@ static const map<species_type, species_def> species_data =
       SK_BOWS, SK_CROSSBOWS, SK_SLINGS },
 } },
 
-{ SP_BARACHI, {
-    "Ba",
-    "Barachi", "Barachian", "Frog",
-    SPF_NO_HAIR,
-    0, 0, 0, 3,
-    MONS_BARACHI,
-    HT_WATER, US_ALIVE, SIZE_MEDIUM,
-    9, 8, 7, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
-    { { MUT_SLOW, 1, 1 }, { MUT_HOP, 1, 1}, {MUT_HOP, 1, 13}, },
-    { "Shadows flee at your approach. (+LOS)", "You can swim through water.", },
-    { "+LOS", "swims", },
-    { JOB_FIGHTER, JOB_BERSERKER, JOB_SKALD, JOB_SUMMONER, JOB_ICE_ELEMENTALIST },
-    { SK_MACES_FLAILS, SK_AXES, SK_POLEARMS, SK_LONG_BLADES, SK_STAVES,
-      SK_BOWS, SK_CROSSBOWS, SK_SLINGS },
-} },
-
 { SP_DUGONG_OVERLORD, {
     "DO",
     "Dugong Overlord", "Dugong", "Dugong",
