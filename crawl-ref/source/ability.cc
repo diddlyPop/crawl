@@ -1144,7 +1144,7 @@ void no_ability_msg()
             ASSERT(you.hunger_state > HS_SATIATED);
             mpr("Sorry, you're too full to transform right now.");
         }
-    }
+    } //adding in Dugong's mutation to no_ability_msg
     else if (you.get_mutation_level(MUT_TENGU_FLIGHT)
              || you.get_mutation_level(MUT_BIG_WINGS)
              || you.get_mutation_level(MUT_DEFY_GRAV))

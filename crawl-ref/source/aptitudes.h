@@ -1562,7 +1562,7 @@ static const species_skill_aptitude species_skill_aptitudes[] =
     APT(SP_GNOLL,           SK_INVOCATIONS,     9),
     APT(SP_GNOLL,           SK_EVOCATIONS,      8),
     
-    // SP_DUGONG_OVERLORD
+    // SP_DUGONG_OVERLORD, aptitude levels for Dugong
     APT(SP_DUGONG_OVERLORD,    SK_FIGHTING,        2),
     APT(SP_DUGONG_OVERLORD,    SK_SHORT_BLADES,   -1),
     APT(SP_DUGONG_OVERLORD,    SK_LONG_BLADES,    -1),

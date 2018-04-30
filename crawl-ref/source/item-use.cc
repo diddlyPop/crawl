@@ -706,6 +706,7 @@ bool can_wear_armour(const item_def &item, bool verbose, bool ignore_temporary)
         return false;
     }
     
+    //our species can only wear specific armor pieces such as the helmet, with custom messages
     if (you.species == SP_DUGONG_OVERLORD && slot != EQ_HELMET)
     {
         if (verbose)

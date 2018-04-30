@@ -51,6 +51,7 @@ static const mutation_def mut_data[] =
  
  },
 
+// add Blubber mutation so that it may be picked up by our species
  {MUT_BLUBBER, 0 , 1, mutflag::good, true,
  "blubberous",
  

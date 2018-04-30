@@ -59,9 +59,9 @@ static const map<species_type, species_def> species_data =
     "DO",
     "Dugong Overlord", "Dugong", "Dugong",
     SPF_NO_HAIR,
-    0, -1, 2, 4,
-    MONS_GIANT_SLUG,
-    HT_LAND, US_ALIVE, SIZE_LARGE,
+    -1, -1, 0, 3,
+    MONS_TENGU,
+    HT_WATER, US_ALIVE, SIZE_LARGE,
     10, 10, 10, // 30
     { STAT_STR, STAT_INT, STAT_DEX }, 4,
     { { MUT_BLUBBER, 1, 1 },  { MUT_DEFY_GRAV, 1, 1 }, },
