@@ -2157,9 +2157,10 @@ static int _player_scale_evasion(int prescaled_ev, const int scale)
         return prescaled_ev + ev_bonus;
     }
 
+    //50% ev bonus for floating dugongs
     if (you.dugong_defy_grav())
     {
-        const int ev_bonus = max(1 * scale, prescaled_ev / 15);
+        const int ev_bonus = max(1 * scale, prescaled_ev / 2);
         return prescaled_ev + ev_bonus;
     }
 
@@ -4883,6 +4884,7 @@ void float_player()
         you.redraw_evasion = true;
 }
 
+// Dugongs start game flying 
 void float_once()
  {
      if (you.species != SP_DUGONG_OVERLORD)
